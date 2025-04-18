@@ -27,5 +27,5 @@ btnMinus.addEventListener('click', (e) => {
 // Calculos
 function calcularCantidad(cantidad) {
   cantidadSpan.innerHTML = cantidad;
-  valorTotal.innerText = precio * cantidad;
+  valorTotal.innerHTML = precio * cantidad;
 }
