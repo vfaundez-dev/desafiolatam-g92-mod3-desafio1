@@ -6,10 +6,10 @@ let cantidad = 0;
 // Botones
 const btnPlus = document.querySelector('#btnPlus');
 const btnMinus = document.querySelector('#btnMinus');
-const valorTotal = document.querySelector('.valor-total');
-const cantidadSpan = document.querySelector('.cantidad');
 
 // Elementos
+const valorTotal = document.querySelector('.valor-total');
+const cantidadSpan = document.querySelector('.cantidad');
 const precioSpan = document.querySelector('.precio-inicial');
 precioSpan.innerHTML = precio;
 
